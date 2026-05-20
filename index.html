@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title> BOLT HUB — #1 Roblox Games Store</title>
+<title>⚡ BOLT HUB — #1 Roblox Games Store</title>
 <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Syne:wght@400;500;600;700;800&family=Orbitron:wght@400;600;700;900&display=swap" rel="stylesheet">
 <style>
 :root {
@@ -31,13 +31,13 @@ html { scroll-behavior: smooth; font-size: 16px; }
 body {
   background: var(--bg0);
   color: var(--text);
-  font-family: 'Syne', sans-serif;
+  font-family: 'Syne', 'Segoe UI Emoji', 'Noto Color Emoji', 'Apple Color Emoji', 'Android Emoji', sans-serif;
   overflow-x: hidden;
   cursor: none;
   line-height: 1.6;
 }
 
-/*  CURSOR  */
+/* ── CURSOR ── */
 #cursor {
   position: fixed; width: 10px; height: 10px;
   background: var(--g1); border-radius: 50%;
@@ -56,7 +56,7 @@ body {
 body.cursor-hover #cursor { transform: translate(-50%,-50%) scale(2.5); }
 body.cursor-hover #cursor-ring { transform: translate(-50%,-50%) scale(0.6); opacity: 0.4; }
 
-/*  PARTICLES  */
+/* ── PARTICLES ── */
 #particles { position: fixed; inset: 0; z-index: 0; pointer-events: none; overflow: hidden; }
 .pt {
   position: absolute; border-radius: 50%;
@@ -70,12 +70,12 @@ body.cursor-hover #cursor-ring { transform: translate(-50%,-50%) scale(0.6); opa
   100% { transform: translateY(-40px) scale(1); opacity: 0; }
 }
 
-/*  SCROLLBAR  */
+/* ── SCROLLBAR ── */
 ::-webkit-scrollbar { width: 4px; }
 ::-webkit-scrollbar-track { background: var(--bg1); }
 ::-webkit-scrollbar-thumb { background: var(--g3); border-radius: 4px; }
 
-/*  TICKER  */
+/* ── TICKER ── */
 .ticker {
   position: fixed; top: 0; left: 0; right: 0; z-index: 1001;
   background: linear-gradient(90deg, var(--g5), var(--g3), var(--g1), var(--g3), var(--g5));
@@ -92,7 +92,7 @@ body.cursor-hover #cursor-ring { transform: translate(-50%,-50%) scale(0.6); opa
 }
 @keyframes tickerMove { from { transform: translateX(0); } to { transform: translateX(-50%); } }
 
-/*  NAV  */
+/* ── NAV ── */
 nav {
   position: fixed; top: 28px; left: 0; right: 0; z-index: 1000;
   background: rgba(8,7,6,0.92); border-bottom: 1px solid #FFD70022;
@@ -145,7 +145,7 @@ nav {
 }
 .burger span { display: block; width: 22px; height: 2px; background: var(--g1); border-radius: 2px; transition: 0.3s; }
 
-/*  HERO  */
+/* ── HERO ── */
 .hero {
   min-height: 100vh; display: flex; flex-direction: column;
   align-items: center; justify-content: center; text-align: center;
@@ -255,7 +255,7 @@ nav {
 @keyframes scrollBounce { 0%, 100% { transform: translateX(-50%) translateY(0); } 50% { transform: translateX(-50%) translateY(8px); } }
 @keyframes fadeUp { from { opacity: 0; transform: translateY(20px); } to { opacity: 1; transform: translateY(0); } }
 
-/*  SECTION COMMONS  */
+/* ── SECTION COMMONS ── */
 section { position: relative; z-index: 1; }
 .sec-pad { padding: 5rem 5vw; }
 .sec-alt { background: var(--bg1); }
@@ -277,7 +277,7 @@ section { position: relative; z-index: 1; }
 }
 .sec-sub { color: var(--text); font-size: 0.9rem; max-width: 480px; margin: 0 auto; }
 
-/*  PRICE CARDS  */
+/* ── PRICE CARDS ── */
 .grid-label {
   font-family: 'Orbitron'; font-size: 0.72rem; font-weight: 700;
   color: var(--g3); letter-spacing: 2px; text-transform: uppercase;
@@ -366,7 +366,7 @@ section { position: relative; z-index: 1; }
 }
 .card-btn:hover { opacity: 0.9; transform: scale(1.02); }
 
-/*  BUNDLE CARDS  */
+/* ── BUNDLE CARDS ── */
 .bundle-grid {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
@@ -392,7 +392,7 @@ section { position: relative; z-index: 1; }
   border-color: rgba(255,215,0,0.45);
 }
 .bundle-card.featured { border-color: rgba(255,215,0,0.35); box-shadow: 0 0 28px rgba(255,215,0,0.1); }
-.bundle-icon { font-size: 2.2rem; margin-bottom: 0.6rem; display: block; }
+.bundle-icon { font-size: 2.2rem; margin-bottom: 0.6rem; display: block; font-family: 'Segoe UI Emoji', 'Noto Color Emoji', 'Apple Color Emoji', 'Android Emoji', sans-serif; }
 .bundle-name { font-family: 'Bebas Neue'; font-size: 1.4rem; letter-spacing: 2px; color: var(--g1); margin-bottom: 0.4rem; }
 .bundle-items { font-size: 0.83rem; color: var(--text); margin-bottom: 0.8rem; line-height: 1.6; }
 .bundle-price-row { display: flex; align-items: baseline; gap: 0.5rem; margin-bottom: 0.2rem; }
@@ -400,7 +400,7 @@ section { position: relative; z-index: 1; }
 .bundle-strike { font-size: 0.82rem; color: var(--textd); text-decoration: line-through; }
 .bundle-alts { font-size: 0.76rem; color: var(--textd); margin-bottom: 1rem; }
 
-/*  FEATURES  */
+/* ── FEATURES ── */
 .feat-grid {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(170px, 1fr));
@@ -416,11 +416,11 @@ section { position: relative; z-index: 1; }
   border-color: rgba(255,215,0,0.4);
   box-shadow: 0 12px 35px rgba(255,150,0,0.12);
 }
-.feat-icon { font-size: 2.2rem; margin-bottom: 0.8rem; display: block; }
+.feat-icon { font-size: 2.2rem; margin-bottom: 0.8rem; display: block; font-family: 'Segoe UI Emoji', 'Noto Color Emoji', 'Apple Color Emoji', 'Android Emoji', sans-serif; }
 .feat-title { font-family: 'Orbitron'; font-size: 0.72rem; font-weight: 700; color: var(--g1); letter-spacing: 1px; margin-bottom: 0.4rem; }
 .feat-desc { font-size: 0.8rem; color: var(--text); line-height: 1.5; }
 
-/*  REVIEWS  */
+/* ── REVIEWS ── */
 .rev-grid {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
@@ -444,7 +444,7 @@ section { position: relative; z-index: 1; }
 .rev-name { font-weight: 700; color: var(--white); font-size: 0.83rem; }
 .rev-game { font-size: 0.72rem; color: var(--textd); }
 
-/*  RESERVE FORM  */
+/* ── RESERVE FORM ── */
 .reserve-wrap {
   max-width: 680px; margin: 0 auto;
   background: linear-gradient(155deg, var(--bg1), var(--bg2));
@@ -486,7 +486,7 @@ section { position: relative; z-index: 1; }
 }
 .form-success-icon { font-size: 4rem; margin-bottom: 1rem; }
 
-/*  DISCORD CTA  */
+/* ── DISCORD CTA ── */
 .discord-box {
   max-width: 520px; margin: 0 auto;
   background: linear-gradient(135deg, rgba(88,101,242,0.12), rgba(88,101,242,0.06));
@@ -503,7 +503,7 @@ section { position: relative; z-index: 1; }
 }
 .discord-btn:hover { transform: translateY(-3px); box-shadow: 0 10px 30px rgba(88,101,242,0.5); }
 
-/*  TOAST  */
+/* ── TOAST ── */
 #toast {
   position: fixed; bottom: 1.8rem; right: 1.8rem; z-index: 20000;
   background: var(--bg3); border: 1px solid rgba(255,215,0,0.5);
@@ -516,7 +516,7 @@ section { position: relative; z-index: 1; }
 }
 #toast.show { transform: translateX(0); }
 
-/*  ORDER MODAL  */
+/* ── ORDER MODAL ── */
 #order-modal {
   position: fixed; inset: 0; z-index: 11000;
   background: rgba(0,0,0,0.88);
@@ -573,7 +573,7 @@ section { position: relative; z-index: 1; }
 }
 .btn-close-modal:hover { background: rgba(255,215,0,0.07); border-color: rgba(255,215,0,0.4); color: var(--g4); }
 
-/*  SPIN MODAL  */
+/* ── SPIN MODAL ── */
 /* FIX: hidden by default; JS shows it only if spin not yet used */
 #spin-overlay {
   position: fixed; inset: 0; z-index: 10000;
@@ -637,7 +637,7 @@ section { position: relative; z-index: 1; }
 }
 .spin-close:hover { background: rgba(255,215,0,0.1); border-color: var(--g1); }
 
-/*  FOOTER  */
+/* ── FOOTER ── */
 footer {
   background: var(--bg1); border-top: 1px solid rgba(255,215,0,0.1);
   padding: 3rem 5vw 1.8rem; text-align: center;
@@ -661,11 +661,11 @@ footer {
   border-top: 1px solid rgba(255,215,0,0.06); padding-top: 1.2rem;
 }
 
-/*  REVEAL  */
+/* ── REVEAL ── */
 .reveal { opacity: 0; transform: translateY(24px); transition: opacity 0.6s ease, transform 0.6s ease; }
 .reveal.in { opacity: 1; transform: translateY(0); }
 
-/*  MOBILE  */
+/* ── MOBILE ── */
 @media (max-width: 700px) {
   .nav-links { display: none; flex-direction: column; position: fixed; top: 88px; left: 0; right: 0; background: var(--bg1); border-bottom: 1px solid rgba(255,215,0,0.2); padding: 1.4rem; gap: 1.2rem; z-index: 998; }
   .nav-links.open { display: flex; }
@@ -694,11 +694,11 @@ footer {
 <!-- ORDER MODAL -->
 <div id="order-modal">
   <div class="order-box">
-    <h3> ORDER PLACED!</h3>
+    <h3>✅ ORDER PLACED!</h3>
     <p style="color:var(--text);font-size:.85rem;margin-bottom:.3rem">Copied to clipboard! Paste it in our Discord to complete your order.</p>
     <div class="order-preview" id="order-preview"></div>
     <div class="order-btns">
-      <button class="btn-copy" id="copy-again-btn"> COPY AGAIN</button>
+      <button class="btn-copy" id="copy-again-btn">📋 COPY AGAIN</button>
       <a class="btn-discord-small" href="https://discord.gg/Dx35Sjb56P" target="_blank">
         <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M20.317 4.37a19.791 19.791 0 0 0-4.885-1.515.074.074 0 0 0-.079.037c-.21.375-.444.864-.608 1.25a18.27 18.27 0 0 0-5.487 0 12.64 12.64 0 0 0-.617-1.25.077.077 0 0 0-.079-.037A19.736 19.736 0 0 0 3.677 4.37a.07.07 0 0 0-.032.027C.533 9.046-.32 13.58.099 18.057a.082.082 0 0 0 .031.057 19.9 19.9 0 0 0 5.993 3.03.078.078 0 0 0 .084-.028 14.09 14.09 0 0 0 1.226-1.994.076.076 0 0 0-.041-.106 13.107 13.107 0 0 1-1.872-.892.077.077 0 0 1-.008-.128 10.2 10.2 0 0 0 .372-.292.074.074 0 0 1 .077-.01c3.928 1.793 8.18 1.793 12.062 0a.074.074 0 0 1 .078.01c.12.098.246.198.373.292a.077.077 0 0 1-.006.127 12.299 12.299 0 0 1-1.873.892.077.077 0 0 0-.041.107c.36.698.772 1.362 1.225 1.993a.076.076 0 0 0 .084.028 19.839 19.839 0 0 0 6.002-3.03.077.077 0 0 0 .032-.054c.5-5.177-.838-9.674-3.549-13.66a.061.061 0 0 0-.031-.03z"/></svg>
         DISCORD
@@ -711,16 +711,16 @@ footer {
 <!-- SPIN MODAL -->
 <div id="spin-overlay">
   <div class="spin-modal">
-    <div class="spin-chip"> NEW VISITOR BONUS</div>
+    <div class="spin-chip">🎰 NEW VISITOR BONUS</div>
     <h2>FREE LUCKY SPIN</h2>
-    <p>One-time exclusive gift for new visitors. Spin to win! </p>
+    <p>One-time exclusive gift for new visitors. Spin to win! 🎁</p>
     <div class="wheel-wrap">
       <div class="wheel-ptr"></div>
       <canvas id="wcanvas" width="270" height="270"></canvas>
     </div>
-    <button class="spin-btn" id="spin-btn"> SPIN NOW</button>
+    <button class="spin-btn" id="spin-btn">⚡ SPIN NOW</button>
     <div class="spin-result" id="spin-result"></div>
-    <button class="spin-close" id="spin-close">CLAIM & ENTER STORE </button>
+    <button class="spin-close" id="spin-close">CLAIM & ENTER STORE →</button>
   </div>
 </div>
 
@@ -732,7 +732,7 @@ footer {
 <!-- NAV -->
 <nav>
   <a class="nav-logo" href="#">
-    <div class="nav-bolt"></div>
+    <div class="nav-bolt">⚡</div>
     BOLT HUB
   </a>
   <div class="nav-links" id="nav-links">
@@ -742,7 +742,7 @@ footer {
     <a href="#yen">Yen</a>
     <a href="#bundles">Bundles</a>
     <a href="#reserve">Reserve</a>
-    <button class="nav-spin-btn" id="open-spin-nav"> Free Spin</button>
+    <button class="nav-spin-btn" id="open-spin-nav">🎰 Free Spin</button>
   </div>
   <button class="burger" id="burger" aria-label="Menu">
     <span></span><span></span><span></span>
@@ -751,12 +751,12 @@ footer {
 
 <!-- HERO -->
 <section class="hero">
-  <div class="hero-chip"><div class="live-dot"></div>#1 Roblox Games Hub in the PH </div>
-  <h1> BOLT<br>STORE</h1>
+  <div class="hero-chip"><div class="live-dot"></div>#1 Roblox Games Hub in the PH 🇵🇭</div>
+  <h1>⚡ BOLT<br>STORE</h1>
   <p class="hero-tagline">The best Hub for Roblox games. Premium Keys, Spins, Gems &amp; Yen at the lowest prices in the Philippines. Verified seller. Instant delivery.</p>
   <div class="hero-btns">
-    <button class="btn-gold" onclick="document.getElementById('keys').scrollIntoView({behavior:'smooth'})"> Shop Now</button>
-    <button class="btn-outline" onclick="document.getElementById('reserve').scrollIntoView({behavior:'smooth'})"> Reserve Order</button>
+    <button class="btn-gold" onclick="document.getElementById('keys').scrollIntoView({behavior:'smooth'})">🛒 Shop Now</button>
+    <button class="btn-outline" onclick="document.getElementById('reserve').scrollIntoView({behavior:'smooth'})">📋 Reserve Order</button>
   </div>
   <div class="hero-stats">
     <div class="hstat"><span class="hstat-num" id="h-orders">1,284</span><span class="hstat-label">Orders Completed</span></div>
@@ -771,7 +771,7 @@ footer {
 <!-- KEYS -->
 <section class="sec-pad sec-alt reveal" id="keys">
   <div class="sec-header">
-    <span class="sec-eyebrow"> Access Shop</span>
+    <span class="sec-eyebrow">🔑 Access Shop</span>
     <div class="sec-title">KEY <span>ACCESS</span></div>
     <div class="sec-rule"></div>
     <p class="sec-sub">Unlock premium Shindo Life access. Up to 45% cheaper than buying direct.</p>
@@ -782,7 +782,7 @@ footer {
 <!-- SPINS -->
 <section class="sec-pad reveal" id="spins">
   <div class="sec-header">
-    <span class="sec-eyebrow"> Spin Packs</span>
+    <span class="sec-eyebrow">🌀 Spin Packs</span>
     <div class="sec-title">SPIN <span>PACKS</span></div>
     <div class="sec-rule"></div>
     <p class="sec-sub">More spins = more savings. Bonus spins included on every pack.</p>
@@ -793,7 +793,7 @@ footer {
 <!-- GEMS -->
 <section class="sec-pad sec-alt reveal" id="gems">
   <div class="sec-header">
-    <span class="sec-eyebrow"> Gem Store</span>
+    <span class="sec-eyebrow">💎 Gem Store</span>
     <div class="sec-title">GEM <span>PACKS</span></div>
     <div class="sec-rule"></div>
     <p class="sec-sub">40% off market price. Best gem deals in PH, guaranteed.</p>
@@ -804,7 +804,7 @@ footer {
 <!-- YEN -->
 <section class="sec-pad reveal" id="yen">
   <div class="sec-header">
-    <span class="sec-eyebrow"> Yen Store</span>
+    <span class="sec-eyebrow">💴 Yen Store</span>
     <div class="sec-title">YEN <span>PACKS</span></div>
     <div class="sec-rule"></div>
     <p class="sec-sub">Farm fast. Buy cheap. 40% off guaranteed every pack.</p>
@@ -815,7 +815,7 @@ footer {
 <!-- ABILITY SPINS -->
 <section class="sec-pad sec-alt reveal" id="ability">
   <div class="sec-header">
-    <span class="sec-eyebrow"> Ability Shop</span>
+    <span class="sec-eyebrow">🌀 Ability Shop</span>
     <div class="sec-title">ABILITY <span>SPINS</span></div>
     <div class="sec-rule"></div>
     <p class="sec-sub">40% off market price on every ability spin pack.</p>
@@ -826,7 +826,7 @@ footer {
 <!-- BUNDLES -->
 <section class="sec-pad reveal" id="bundles">
   <div class="sec-header">
-    <span class="sec-eyebrow"> Bundle Deals</span>
+    <span class="sec-eyebrow">📦 Bundle Deals</span>
     <div class="sec-title">FIXED PRICE <span>BUNDLES</span></div>
     <div class="sec-rule"></div>
     <p class="sec-sub">Curated combos. Best value stacks for meta players.</p>
@@ -837,24 +837,24 @@ footer {
 <!-- FEATURES -->
 <section class="sec-pad sec-alt reveal" id="features">
   <div class="sec-header">
-    <span class="sec-eyebrow"> Why Us</span>
+    <span class="sec-eyebrow">💎 Why Us</span>
     <div class="sec-title">WHY <span>BOLT HUB?</span></div>
     <div class="sec-rule"></div>
   </div>
   <div class="feat-grid">
-    <div class="feat-card"><span class="feat-icon"></span><div class="feat-title">Instant Delivery</div><div class="feat-desc">Most orders fulfilled within minutes of payment.</div></div>
-    <div class="feat-card"><span class="feat-icon"></span><div class="feat-title">100% Legit</div><div class="feat-desc">Trusted seller with hundreds of verified orders.</div></div>
-    <div class="feat-card"><span class="feat-icon"></span><div class="feat-title">40% Off</div><div class="feat-desc">All products priced up to 40% below market.</div></div>
-    <div class="feat-card"><span class="feat-icon"></span><div class="feat-title">24/7 Support</div><div class="feat-desc">Always online on Discord. Fast replies always.</div></div>
-    <div class="feat-card"><span class="feat-icon"></span><div class="feat-title">Free Spin</div><div class="feat-desc">New visitors get a free lucky spin every visit!</div></div>
-    <div class="feat-card"><span class="feat-icon"></span><div class="feat-title">PH Based</div><div class="feat-desc">GCash, Maya, PayMaya — all local payments accepted.</div></div>
+    <div class="feat-card"><span class="feat-icon">⚡</span><div class="feat-title">Instant Delivery</div><div class="feat-desc">Most orders fulfilled within minutes of payment.</div></div>
+    <div class="feat-card"><span class="feat-icon">🔒</span><div class="feat-title">100% Legit</div><div class="feat-desc">Trusted seller with hundreds of verified orders.</div></div>
+    <div class="feat-card"><span class="feat-icon">💰</span><div class="feat-title">40% Off</div><div class="feat-desc">All products priced up to 40% below market.</div></div>
+    <div class="feat-card"><span class="feat-icon">🌏</span><div class="feat-title">24/7 Support</div><div class="feat-desc">Always online on Discord. Fast replies always.</div></div>
+    <div class="feat-card"><span class="feat-icon">🎰</span><div class="feat-title">Free Spin</div><div class="feat-desc">New visitors get a free lucky spin every visit!</div></div>
+    <div class="feat-card"><span class="feat-icon">🇵🇭</span><div class="feat-title">PH Based</div><div class="feat-desc">GCash, Maya, PayMaya — all local payments accepted.</div></div>
   </div>
 </section>
 
 <!-- RESERVE -->
 <section class="sec-pad reveal" id="reserve">
   <div class="sec-header">
-    <span class="sec-eyebrow"> Place Order</span>
+    <span class="sec-eyebrow">📋 Place Order</span>
     <div class="sec-title">RESERVE <span>YOUR ORDER</span></div>
     <div class="sec-rule"></div>
     <p class="sec-sub">Fill in your details and we'll reach out on Discord instantly.</p>
@@ -867,47 +867,47 @@ footer {
         <div class="form-group full"><label class="form-label">What do you want to buy?</label>
           <select class="form-select" id="f-item">
             <option value="">Select item...</option>
-            <optgroup label=" Key Access">
-              <option>24HR Key — 110 / 159 Robux / $1.99</option>
-              <option>1 Week Key — 280 / 399 Robux / $4.99</option>
-              <option>1 Month Key — 560 / 799 Robux / $9.99</option>
-              <option>Lifetime Key — 1,400 / 1,999 Robux / $24.99</option>
+            <optgroup label="🔑 Key Access">
+              <option>24HR Key — ₱110 / 159 Robux / $1.99</option>
+              <option>1 Week Key — ₱280 / 399 Robux / $4.99</option>
+              <option>1 Month Key — ₱560 / 799 Robux / $9.99</option>
+              <option>Lifetime Key — ₱1,400 / 1,999 Robux / $24.99</option>
             </optgroup>
-            <optgroup label=" Spin Packs">
-              <option>50 Spins (+5 bonus) — 240 / 320 Robux</option>
-              <option>100 Spins (+10 bonus) — 420 / 560 Robux</option>
-              <option>250 Spins (+30 bonus) — 960 / 1,280 Robux</option>
-              <option>500 Spins (+75 bonus) — 1,800 / 2,400 Robux</option>
-              <option>1000 Spins (+200 bonus) — 3,120 / 4,160 Robux</option>
+            <optgroup label="🌀 Spin Packs">
+              <option>50 Spins (+5 bonus) — ₱240 / 320 Robux</option>
+              <option>100 Spins (+10 bonus) — ₱420 / 560 Robux</option>
+              <option>250 Spins (+30 bonus) — ₱960 / 1,280 Robux</option>
+              <option>500 Spins (+75 bonus) — ₱1,800 / 2,400 Robux</option>
+              <option>1000 Spins (+200 bonus) — ₱3,120 / 4,160 Robux</option>
             </optgroup>
-            <optgroup label=" Gems">
-              <option>1,000 Gems — 90 / 119 Robux</option>
-              <option>2,500 Gems — 210 / 279 Robux</option>
-              <option>5,000 Gems — 390 / 519 Robux</option>
-              <option>7,300 Gems — 540 / 719 Robux (Best Value)</option>
-              <option>10,000 Gems — 750 / 999 Robux</option>
+            <optgroup label="💎 Gems">
+              <option>1,000 Gems — ₱90 / 119 Robux</option>
+              <option>2,500 Gems — ₱210 / 279 Robux</option>
+              <option>5,000 Gems — ₱390 / 519 Robux</option>
+              <option>7,300 Gems — ₱540 / 719 Robux (Best Value)</option>
+              <option>10,000 Gems — ₱750 / 999 Robux</option>
             </optgroup>
-            <optgroup label=" Yen">
-              <option>5,000 Yen — 120 / 159 Robux</option>
-              <option>10,000 Yen — 240 / 319 Robux</option>
-              <option>15,000 Yen — 360 / 479 Robux</option>
-              <option>25,000 Yen — 600 / 799 Robux (Popular)</option>
-              <option>50,000 Yen — 1,125 / 1,499 Robux</option>
+            <optgroup label="💴 Yen">
+              <option>5,000 Yen — ₱120 / 159 Robux</option>
+              <option>10,000 Yen — ₱240 / 319 Robux</option>
+              <option>15,000 Yen — ₱360 / 479 Robux</option>
+              <option>25,000 Yen — ₱600 / 799 Robux (Popular)</option>
+              <option>50,000 Yen — ₱1,125 / 1,499 Robux</option>
             </optgroup>
-            <optgroup label=" Ability Spins">
-              <option>5 Ability Spins — 225 / 299 Robux</option>
-              <option>10 Ability Spins — 420 / 559 Robux</option>
-              <option>20 Ability Spins — 840 / 1,119 Robux (Best Value)</option>
-              <option>50 Ability Spins — 1,950 / 2,599 Robux</option>
-              <option>100 Ability Spins — 3,750 / 4,999 Robux</option>
+            <optgroup label="🌀 Ability Spins">
+              <option>5 Ability Spins — ₱225 / 299 Robux</option>
+              <option>10 Ability Spins — ₱420 / 559 Robux</option>
+              <option>20 Ability Spins — ₱840 / 1,119 Robux (Best Value)</option>
+              <option>50 Ability Spins — ₱1,950 / 2,599 Robux</option>
+              <option>100 Ability Spins — ₱3,750 / 4,999 Robux</option>
             </optgroup>
-            <optgroup label=" Bundles">
-              <option>Starter Bundle (Sanju + Kisuki) — 140 / 229 Robux</option>
-              <option>Style Pack (All 3 Styles) — 350 / 574 Robux</option>
-              <option>Ability Pack (All Abilities) — 350 / 576 Robux</option>
-              <option>Meta Combo (Akari + Mag Pull) — 375 / 615 Robux</option>
-              <option>High Demand Flip — 485 / 795 Robux</option>
-              <option>Full Stack — 700 / 1,150 Robux</option>
+            <optgroup label="📦 Bundles">
+              <option>Starter Bundle (Sanju + Kisuki) — ₱140 / 229 Robux</option>
+              <option>Style Pack (All 3 Styles) — ₱350 / 574 Robux</option>
+              <option>Ability Pack (All Abilities) — ₱350 / 576 Robux</option>
+              <option>Meta Combo (Akari + Mag Pull) — ₱375 / 615 Robux</option>
+              <option>High Demand Flip — ₱485 / 795 Robux</option>
+              <option>Full Stack — ₱700 / 1,150 Robux</option>
             </optgroup>
           </select>
         </div>
@@ -923,13 +923,13 @@ footer {
         </div>
         <div class="form-group"><label class="form-label">Roblox Username (optional)</label><input class="form-input" id="f-server" type="text" placeholder="Your Roblox username"></div>
         <div class="form-group full"><label class="form-label">Notes / Special Request</label><textarea class="form-textarea" id="f-notes" placeholder="Anything extra? Ask here..."></textarea></div>
-        <div class="form-group full"><button class="form-submit" id="res-submit"> RESERVE NOW &amp; COPY ORDER</button></div>
+        <div class="form-group full"><button class="form-submit" id="res-submit">⚡ RESERVE NOW &amp; COPY ORDER</button></div>
       </div>
     </div>
     <div class="form-success" id="form-success">
-      <div class="form-success-icon"></div>
+      <div class="form-success-icon">✅</div>
       <div style="font-family:'Bebas Neue';font-size:2rem;color:var(--g1);letter-spacing:2px">ORDER RESERVED!</div>
-      <p style="color:var(--text);margin-top:.5rem;font-size:.9rem">We'll DM you on Discord within 1 hour. Don't forget to join! </p>
+      <p style="color:var(--text);margin-top:.5rem;font-size:.9rem">We'll DM you on Discord within 1 hour. Don't forget to join! ⚡</p>
     </div>
   </div>
 </section>
@@ -937,13 +937,13 @@ footer {
 <!-- DISCORD -->
 <section class="sec-pad sec-alt reveal">
   <div class="sec-header">
-    <span class="sec-eyebrow"> Community</span>
+    <span class="sec-eyebrow">💬 Community</span>
     <div class="sec-title">JOIN OUR <span>DISCORD</span></div>
     <div class="sec-rule"></div>
     <p class="sec-sub">Order, ask questions, get updates and exclusive deals. Always active!</p>
   </div>
   <div class="discord-box">
-    <p style="color:var(--text);font-size:.88rem;margin-bottom:1.3rem"> <strong style="color:var(--g1)">500+ members</strong> · Active daily · Flash sales every week</p>
+    <p style="color:var(--text);font-size:.88rem;margin-bottom:1.3rem">📡 <strong style="color:var(--g1)">500+ members</strong> · Active daily · Flash sales every week</p>
     <a class="discord-btn" href="https://discord.gg/Dx35Sjb56P" target="_blank" rel="noopener">
       <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M20.317 4.37a19.791 19.791 0 0 0-4.885-1.515.074.074 0 0 0-.079.037c-.21.375-.444.864-.608 1.25a18.27 18.27 0 0 0-5.487 0 12.64 12.64 0 0 0-.617-1.25.077.077 0 0 0-.079-.037A19.736 19.736 0 0 0 3.677 4.37a.07.07 0 0 0-.032.027C.533 9.046-.32 13.58.099 18.057a.082.082 0 0 0 .031.057 19.9 19.9 0 0 0 5.993 3.03.078.078 0 0 0 .084-.028 14.09 14.09 0 0 0 1.226-1.994.076.076 0 0 0-.041-.106 13.107 13.107 0 0 1-1.872-.892.077.077 0 0 1-.008-.128 10.2 10.2 0 0 0 .372-.292.074.074 0 0 1 .077-.01c3.928 1.793 8.18 1.793 12.062 0a.074.074 0 0 1 .078.01c.12.098.246.198.373.292a.077.077 0 0 1-.006.127 12.299 12.299 0 0 1-1.873.892.077.077 0 0 0-.041.107c.36.698.772 1.362 1.225 1.993a.076.076 0 0 0 .084.028 19.839 19.839 0 0 0 6.002-3.03.077.077 0 0 0 .032-.054c.5-5.177-.838-9.674-3.549-13.66a.061.061 0 0 0-.031-.03z"/></svg>
       JOIN DISCORD SERVER
@@ -954,7 +954,7 @@ footer {
 <!-- REVIEWS -->
 <section class="sec-pad reveal" id="reviews">
   <div class="sec-header">
-    <span class="sec-eyebrow"> Testimonials</span>
+    <span class="sec-eyebrow">⭐ Testimonials</span>
     <div class="sec-title">CUSTOMER <span>REVIEWS</span></div>
     <div class="sec-rule"></div>
   </div>
@@ -963,8 +963,8 @@ footer {
 
 <!-- FOOTER -->
 <footer>
-  <div class="footer-logo"> BOLT HUB</div>
-  <p class="footer-sub">The Best Hub for Roblox Games · Philippines </p>
+  <div class="footer-logo">⚡ BOLT HUB</div>
+  <p class="footer-sub">The Best Hub for Roblox Games · Philippines 🇵🇭</p>
   <div class="footer-links">
     <a href="#keys">Keys</a>
     <a href="#spins">Spins</a>
@@ -977,7 +977,7 @@ footer {
 </footer>
 
 <script>
-//  CURSOR 
+// ── CURSOR ──
 (function() {
   var cur = document.getElementById('cursor');
   var ring = document.getElementById('cursor-ring');
@@ -1003,7 +1003,7 @@ footer {
   });
 })();
 
-//  PARTICLES 
+// ── PARTICLES ──
 (function() {
   var pc = document.getElementById('particles');
   for (var i = 0; i < 20; i++) {
@@ -1015,17 +1015,17 @@ footer {
   }
 })();
 
-//  TICKER 
+// ── TICKER ──
 (function() {
   var items = [
-    ' 40% OFF ALL PRODUCTS',
-    ' LIFETIME KEY — 1,400',
-    ' 1000 SPINS +200 BONUS — 3,120',
-    ' FREE LUCKY SPIN FOR NEW VISITORS',
-    ' GCASH · MAYA · ROBUX ACCEPTED',
-    ' 99.8% SATISFACTION RATE',
-    ' INSTANT DELIVERY AFTER PAYMENT',
-    ' 500+ DISCORD MEMBERS',
+    '⚡ 40% OFF ALL PRODUCTS',
+    '🔑 LIFETIME KEY — ₱1,400',
+    '🌀 1000 SPINS +200 BONUS — ₱3,120',
+    '💎 FREE LUCKY SPIN FOR NEW VISITORS',
+    '🇵🇭 GCASH · MAYA · ROBUX ACCEPTED',
+    '⭐ 99.8% SATISFACTION RATE',
+    '🚀 INSTANT DELIVERY AFTER PAYMENT',
+    '💬 500+ DISCORD MEMBERS',
   ];
   var track = document.getElementById('ticker-track');
   var doubled = items.concat(items);
@@ -1036,12 +1036,12 @@ footer {
   });
 })();
 
-//  BURGER 
+// ── BURGER ──
 document.getElementById('burger').addEventListener('click', function() {
   document.getElementById('nav-links').classList.toggle('open');
 });
 
-//  LIVE STATS 
+// ── LIVE STATS ──
 var oCount = 1284, onN = 247;
 setInterval(function() {
   if (Math.random() > 0.45) oCount += Math.floor(Math.random() * 3 + 1);
@@ -1053,7 +1053,7 @@ setInterval(function() {
   if (elC) elC.textContent = oCount.toLocaleString();
 }, 3200);
 
-//  TOAST 
+// ── TOAST ──
 function showToast(msg) {
   var t = document.getElementById('toast');
   t.textContent = msg;
@@ -1061,43 +1061,43 @@ function showToast(msg) {
   setTimeout(function() { t.classList.remove('show'); }, 3500);
 }
 
-//  PRODUCT DATA 
+// ── PRODUCT DATA ──
 var keysData = [
-  {name:'24HR KEY', price:'110', strike:'200', robux:'159', usd:'$1.99', badges:['TRIAL','45% OFF'], popular:false, best:false, bonus:null},
-  {name:'1 WEEK KEY', price:'280', strike:'500', robux:'399', usd:'$4.99', badges:['STARTER','44% OFF'], popular:false, best:false, bonus:null},
-  {name:'1 MONTH KEY', price:'560', strike:'1,000', robux:'799', usd:'$9.99', badges:[' POPULAR','44% OFF'], popular:true, best:false, bonus:null},
-  {name:'LIFETIME KEY', price:'1,400', strike:'2,500', robux:'1,999', usd:'$24.99', badges:['BEST VALUE','44% OFF'], popular:false, best:true, bonus:'Never pay again!'}
+  {name:'24HR KEY', price:'₱110', strike:'₱200', robux:'159', usd:'$1.99', badges:['TRIAL','45% OFF'], popular:false, best:false, bonus:null},
+  {name:'1 WEEK KEY', price:'₱280', strike:'₱500', robux:'399', usd:'$4.99', badges:['STARTER','44% OFF'], popular:false, best:false, bonus:null},
+  {name:'1 MONTH KEY', price:'₱560', strike:'₱1,000', robux:'799', usd:'$9.99', badges:['🔥 POPULAR','44% OFF'], popular:true, best:false, bonus:null},
+  {name:'LIFETIME KEY', price:'₱1,400', strike:'₱2,500', robux:'1,999', usd:'$24.99', badges:['BEST VALUE','44% OFF'], popular:false, best:true, bonus:'Never pay again!'}
 ];
 var spinsData = [
-  {name:'50 SPINS', price:'240', strike:'480', robux:'320', usd:'$4', bonus:'+5 BONUS SPINS', badges:['50% OFF'], popular:false, best:false},
-  {name:'100 SPINS', price:'420', strike:'840', robux:'560', usd:'$7', bonus:'+10 BONUS SPINS', badges:['50% OFF'], popular:false, best:false},
-  {name:'250 SPINS', price:'960', strike:'1,920', robux:'1,280', usd:'$16', bonus:'+30 BONUS SPINS', badges:[' HOT','50% OFF'], popular:true, best:false},
-  {name:'500 SPINS', price:'1,800', strike:'3,600', robux:'2,400', usd:'$30', bonus:'+75 BONUS SPINS', badges:['BEST VALUE','50% OFF'], popular:false, best:true},
-  {name:'1000 SPINS', price:'3,120', strike:'6,240', robux:'4,160', usd:'$52', bonus:'+200 BONUS SPINS ', badges:['MAX VALUE','50% OFF'], popular:false, best:false}
+  {name:'50 SPINS', price:'₱240', strike:'₱480', robux:'320', usd:'$4', bonus:'+5 BONUS SPINS', badges:['50% OFF'], popular:false, best:false},
+  {name:'100 SPINS', price:'₱420', strike:'₱840', robux:'560', usd:'$7', bonus:'+10 BONUS SPINS', badges:['50% OFF'], popular:false, best:false},
+  {name:'250 SPINS', price:'₱960', strike:'₱1,920', robux:'1,280', usd:'$16', bonus:'+30 BONUS SPINS', badges:['🔥 HOT','50% OFF'], popular:true, best:false},
+  {name:'500 SPINS', price:'₱1,800', strike:'₱3,600', robux:'2,400', usd:'$30', bonus:'+75 BONUS SPINS', badges:['BEST VALUE','50% OFF'], popular:false, best:true},
+  {name:'1000 SPINS', price:'₱3,120', strike:'₱6,240', robux:'4,160', usd:'$52', bonus:'+200 BONUS SPINS 🎉', badges:['MAX VALUE','50% OFF'], popular:false, best:false}
 ];
 var gemsData = [
-  {name:'1,000 GEMS', price:'90', strike:'150', robux:'119', usd:'$1.50', bonus:null, badges:['40% OFF'], popular:false, best:false},
-  {name:'2,500 GEMS', price:'210', strike:'350', robux:'279', usd:'$3.50', bonus:null, badges:['40% OFF'], popular:false, best:false},
-  {name:'5,000 GEMS', price:'390', strike:'650', robux:'519', usd:'$6.50', bonus:null, badges:['40% OFF'], popular:false, best:false},
-  {name:'7,300 GEMS', price:'540', strike:'900', robux:'719', usd:'$9', bonus:'Best gem-per-peso ratio!', badges:['BEST VALUE','40% OFF'], popular:false, best:true},
-  {name:'10,000 GEMS', price:'750', strike:'1,250', robux:'999', usd:'$12.50', bonus:null, badges:['40% OFF',' HOT'], popular:true, best:false}
+  {name:'1,000 GEMS', price:'₱90', strike:'₱150', robux:'119', usd:'$1.50', bonus:null, badges:['40% OFF'], popular:false, best:false},
+  {name:'2,500 GEMS', price:'₱210', strike:'₱350', robux:'279', usd:'$3.50', bonus:null, badges:['40% OFF'], popular:false, best:false},
+  {name:'5,000 GEMS', price:'₱390', strike:'₱650', robux:'519', usd:'$6.50', bonus:null, badges:['40% OFF'], popular:false, best:false},
+  {name:'7,300 GEMS', price:'₱540', strike:'₱900', robux:'719', usd:'$9', bonus:'Best gem-per-peso ratio!', badges:['BEST VALUE','40% OFF'], popular:false, best:true},
+  {name:'10,000 GEMS', price:'₱750', strike:'₱1,250', robux:'999', usd:'$12.50', bonus:null, badges:['40% OFF','🔥 HOT'], popular:true, best:false}
 ];
 var yenData = [
-  {name:'5,000 YEN', price:'120', strike:'200', robux:'159', usd:'$2', bonus:null, badges:['40% OFF'], popular:false, best:false},
-  {name:'10,000 YEN', price:'240', strike:'400', robux:'319', usd:'$4', bonus:null, badges:['40% OFF'], popular:false, best:false},
-  {name:'15,000 YEN', price:'360', strike:'600', robux:'479', usd:'$6', bonus:null, badges:['40% OFF'], popular:false, best:false},
-  {name:'25,000 YEN', price:'600', strike:'1,000', robux:'799', usd:'$10', bonus:'Most popular yen pack!', badges:[' POPULAR','40% OFF'], popular:true, best:false},
-  {name:'50,000 YEN', price:'1,125', strike:'1,875', robux:'1,499', usd:'$18.75', bonus:null, badges:['BEST VALUE','40% OFF'], popular:false, best:true}
+  {name:'5,000 YEN', price:'₱120', strike:'₱200', robux:'159', usd:'$2', bonus:null, badges:['40% OFF'], popular:false, best:false},
+  {name:'10,000 YEN', price:'₱240', strike:'₱400', robux:'319', usd:'$4', bonus:null, badges:['40% OFF'], popular:false, best:false},
+  {name:'15,000 YEN', price:'₱360', strike:'₱600', robux:'479', usd:'$6', bonus:null, badges:['40% OFF'], popular:false, best:false},
+  {name:'25,000 YEN', price:'₱600', strike:'₱1,000', robux:'799', usd:'$10', bonus:'Most popular yen pack!', badges:['🔥 POPULAR','40% OFF'], popular:true, best:false},
+  {name:'50,000 YEN', price:'₱1,125', strike:'₱1,875', robux:'1,499', usd:'$18.75', bonus:null, badges:['BEST VALUE','40% OFF'], popular:false, best:true}
 ];
 var abilityData = [
-  {name:'5 ABILITY SPINS', price:'225', strike:'375', robux:'299', usd:'$3.75', bonus:null, badges:['40% OFF'], popular:false, best:false},
-  {name:'10 ABILITY SPINS', price:'420', strike:'700', robux:'559', usd:'$7', bonus:null, badges:['40% OFF'], popular:false, best:false},
-  {name:'20 ABILITY SPINS', price:'840', strike:'1,400', robux:'1,119', usd:'$14', bonus:'Best value ability pack!', badges:['BEST VALUE','40% OFF'], popular:false, best:true},
-  {name:'50 ABILITY SPINS', price:'1,950', strike:'3,250', robux:'2,599', usd:'$32.50', bonus:null, badges:['40% OFF',' HOT'], popular:true, best:false},
-  {name:'100 ABILITY SPINS', price:'3,750', strike:'6,250', robux:'4,999', usd:'$62.50', bonus:null, badges:['MAX VALUE','40% OFF'], popular:false, best:false}
+  {name:'5 ABILITY SPINS', price:'₱225', strike:'₱375', robux:'299', usd:'$3.75', bonus:null, badges:['40% OFF'], popular:false, best:false},
+  {name:'10 ABILITY SPINS', price:'₱420', strike:'₱700', robux:'559', usd:'$7', bonus:null, badges:['40% OFF'], popular:false, best:false},
+  {name:'20 ABILITY SPINS', price:'₱840', strike:'₱1,400', robux:'1,119', usd:'$14', bonus:'Best value ability pack!', badges:['BEST VALUE','40% OFF'], popular:false, best:true},
+  {name:'50 ABILITY SPINS', price:'₱1,950', strike:'₱3,250', robux:'2,599', usd:'$32.50', bonus:null, badges:['40% OFF','🔥 HOT'], popular:true, best:false},
+  {name:'100 ABILITY SPINS', price:'₱3,750', strike:'₱6,250', robux:'4,999', usd:'$62.50', bonus:null, badges:['MAX VALUE','40% OFF'], popular:false, best:false}
 ];
 
-//  REVEAL OBSERVER 
+// ── REVEAL OBSERVER ──
 var observer = new IntersectionObserver(function(entries) {
   entries.forEach(function(e) { if (e.isIntersecting) e.target.classList.add('in'); });
 }, {threshold: 0.08});
@@ -1126,24 +1126,24 @@ function buildCards(data, gridId) {
         '<span class="card-strike">' + item.strike + '</span>' +
       '</div>' +
       '<div class="card-meta">' +
-        '<span> ' + item.robux + ' Robux</span>' +
-        '<span> ' + item.usd + '</span>' +
+        '<span>🪙 ' + item.robux + ' Robux</span>' +
+        '<span>💵 ' + item.usd + '</span>' +
       '</div>' +
-      (item.bonus ? '<div class="card-bonus"> ' + item.bonus + '</div>' : '') +
-      '<button class="card-btn" data-item="' + item.name + '" data-price="' + item.price + '" data-robux="' + item.robux + ' Robux" data-usd="' + item.usd + '">RESERVE NOW </button>';
+      (item.bonus ? '<div class="card-bonus">🎁 ' + item.bonus + '</div>' : '') +
+      '<button class="card-btn" data-item="' + item.name + '" data-price="' + item.price + '" data-robux="' + item.robux + ' Robux" data-usd="' + item.usd + '">RESERVE NOW ⚡</button>';
     grid.appendChild(c);
     observer.observe(c);
   });
 }
 
-//  BUNDLES 
+// ── BUNDLES ──
 var bundlesData = [
-  {icon:'', name:'STARTER BUNDLE', items:'Sanju + Kisuki Style', php:'140', robux:'229 Robux', usd:'$2.87', strike:'250', featured:false},
-  {icon:'', name:'STYLE PACK', items:'Akari (Ultra) + Sanju + Kisuki', php:'350', robux:'574 Robux', usd:'$7.18', strike:'620', featured:false},
-  {icon:'', name:'ABILITY PACK', items:'Magnetic Pull + Shield Breaker + Extra Touch', php:'350', robux:'576 Robux', usd:'$7.20', strike:'620', featured:false},
-  {icon:'', name:'META COMBO', items:'Akari (Ultra) + Magnetic Pull', php:'375', robux:'615 Robux', usd:'$7.69', strike:'680', featured:true},
-  {icon:'', name:'HIGH DEMAND FLIP', items:'Akari + Magnetic Pull + Shield Breaker', php:'485', robux:'795 Robux', usd:'$9.94', strike:'870', featured:true},
-  {icon:'', name:'FULL STACK', items:'ALL Styles + ALL Abilities (Complete Set)', php:'700', robux:'1,150 Robux', usd:'$14.37', strike:'1,260', featured:false}
+  {icon:'🔹', name:'STARTER BUNDLE', items:'Sanju + Kisuki Style', php:'₱140', robux:'229 Robux', usd:'$2.87', strike:'₱250', featured:false},
+  {icon:'✨', name:'STYLE PACK', items:'Akari (Ultra) + Sanju + Kisuki', php:'₱350', robux:'574 Robux', usd:'$7.18', strike:'₱620', featured:false},
+  {icon:'⚡', name:'ABILITY PACK', items:'Magnetic Pull + Shield Breaker + Extra Touch', php:'₱350', robux:'576 Robux', usd:'$7.20', strike:'₱620', featured:false},
+  {icon:'🔥', name:'META COMBO', items:'Akari (Ultra) + Magnetic Pull', php:'₱375', robux:'615 Robux', usd:'$7.69', strike:'₱680', featured:true},
+  {icon:'🔥', name:'HIGH DEMAND FLIP', items:'Akari + Magnetic Pull + Shield Breaker', php:'₱485', robux:'795 Robux', usd:'$9.94', strike:'₱870', featured:true},
+  {icon:'🏆', name:'FULL STACK', items:'ALL Styles + ALL Abilities (Complete Set)', php:'₱700', robux:'1,150 Robux', usd:'$14.37', strike:'₱1,260', featured:false}
 ];
 var bg = document.getElementById('bundles-grid');
 bundlesData.forEach(function(b) {
@@ -1157,27 +1157,27 @@ bundlesData.forEach(function(b) {
       '<span class="bundle-php">' + b.php + '</span>' +
       '<span class="bundle-strike">' + b.strike + '</span>' +
     '</div>' +
-    '<div class="bundle-alts"> ' + b.robux + ' &nbsp;·&nbsp;  ' + b.usd + '</div>' +
-    '<button class="card-btn" data-item="' + b.name + '" data-price="' + b.php + '" data-robux="' + b.robux + '" data-usd="' + b.usd + '">RESERVE NOW </button>';
+    '<div class="bundle-alts">🪙 ' + b.robux + ' &nbsp;·&nbsp; 💵 ' + b.usd + '</div>' +
+    '<button class="card-btn" data-item="' + b.name + '" data-price="' + b.php + '" data-robux="' + b.robux + '" data-usd="' + b.usd + '">RESERVE NOW ⚡</button>';
   bg.appendChild(c);
   observer.observe(c);
 });
 
-//  ORDER MODAL 
+// ── ORDER MODAL ──
 function openOrder(item, php, robux, usd) {
   var now = new Date();
   var ts = now.toLocaleString('en-PH', {hour12:true, month:'short', day:'numeric', year:'numeric', hour:'2-digit', minute:'2-digit'});
   var order =
-    '\n' +
-    ' BOLT HUB — ORDER REQUEST\n' +
-    '\n' +
-    ' Item: ' + item + '\n' +
-    ' Price: ' + php + ' / ' + robux + ' / ' + usd + '\n' +
-    ' Time: ' + ts + '\n' +
-    '\n' +
-    ' Paste in our Discord:\n' +
+    '━━━━━━━━━━━━━━━━━━━━━\n' +
+    '⚡ BOLT HUB — ORDER REQUEST\n' +
+    '━━━━━━━━━━━━━━━━━━━━━\n' +
+    '📦 Item: ' + item + '\n' +
+    '💰 Price: ' + php + ' / ' + robux + ' / ' + usd + '\n' +
+    '⏰ Time: ' + ts + '\n' +
+    '━━━━━━━━━━━━━━━━━━━━━\n' +
+    '📋 Paste in our Discord:\n' +
     'https://discord.gg/Dx35Sjb56P\n' +
-    '';
+    '━━━━━━━━━━━━━━━━━━━━━';
   document.getElementById('order-preview').textContent = order;
   document.getElementById('copy-again-btn').onclick = function() { copyOrder(order); };
   copyOrder(order);
@@ -1187,7 +1187,7 @@ function openOrder(item, php, robux, usd) {
 function copyOrder(text) {
   if (navigator.clipboard && navigator.clipboard.writeText) {
     navigator.clipboard.writeText(text).then(function() {
-      showToast(' Order copied to clipboard!');
+      showToast('📋 Order copied to clipboard!');
     }).catch(function() { fallbackCopy(text); });
   } else {
     fallbackCopy(text);
@@ -1200,7 +1200,7 @@ function fallbackCopy(text) {
   ta.style.cssText = 'position:fixed;opacity:0;pointer-events:none;';
   document.body.appendChild(ta);
   ta.select();
-  try { document.execCommand('copy'); showToast(' Order copied!'); } catch(e) {}
+  try { document.execCommand('copy'); showToast('📋 Order copied!'); } catch(e) {}
   document.body.removeChild(ta);
 }
 
@@ -1215,14 +1215,14 @@ document.addEventListener('click', function(e) {
   }
 });
 
-//  REVIEWS 
+// ── REVIEWS ──
 var revs = [
-  {s:'', t:'Got my Lifetime Key in under 5 minutes. Cheapest I found anywhere in PH!', n:'xZeon99', g:'Shindo Life', i:'Z'},
-  {s:'', t:'Bought 250 spins + got 30 bonus ones. Actually delivered every single one.', n:'NovaBlade', g:'Shindo Life', i:'N'},
-  {s:'', t:'The Meta Combo bundle is insane value. Akari + Mag Pull for 375 only!', n:'ShadowPeak', g:'Shindo Life', i:'S'},
-  {s:'', t:'Free spin gave me Style of my choice. They actually honored it no questions asked.', n:'CrimsonFire', g:'Shindo Life', i:'C'},
-  {s:'', t:'GCash payment went through smooth and gems were delivered instantly. Legit!', n:'MoonStrike22', g:'Shindo Life', i:'M'},
-  {s:'', t:'Best store in PH. Bought 3 times already. Never had a single issue.', n:'SpeedRunKing', g:'Shindo Life', i:'P'}
+  {s:'⭐⭐⭐⭐⭐', t:'Got my Lifetime Key in under 5 minutes. Cheapest I found anywhere in PH!', n:'xZeon99', g:'Shindo Life', i:'Z'},
+  {s:'⭐⭐⭐⭐⭐', t:'Bought 250 spins + got 30 bonus ones. Actually delivered every single one.', n:'NovaBlade', g:'Shindo Life', i:'N'},
+  {s:'⭐⭐⭐⭐⭐', t:'The Meta Combo bundle is insane value. Akari + Mag Pull for ₱375 only!', n:'ShadowPeak', g:'Shindo Life', i:'S'},
+  {s:'⭐⭐⭐⭐⭐', t:'Free spin gave me Style of my choice. They actually honored it no questions asked.', n:'CrimsonFire', g:'Shindo Life', i:'C'},
+  {s:'⭐⭐⭐⭐⭐', t:'GCash payment went through smooth and gems were delivered instantly. Legit!', n:'MoonStrike22', g:'Shindo Life', i:'M'},
+  {s:'⭐⭐⭐⭐⭐', t:'Best store in PH. Bought 3 times already. Never had a single issue.', n:'SpeedRunKing', g:'Shindo Life', i:'P'}
 ];
 var rg = document.getElementById('rev-grid');
 revs.forEach(function(r) {
@@ -1239,32 +1239,32 @@ revs.forEach(function(r) {
   observer.observe(c);
 });
 
-//  RESERVE FORM 
+// ── RESERVE FORM ──
 document.getElementById('res-submit').addEventListener('click', function() {
   var name = document.getElementById('f-name').value.trim();
   var disc = document.getElementById('f-discord').value.trim();
   var item = document.getElementById('f-item').value;
   var pay = document.getElementById('f-pay').value;
-  if (!name || !disc || !item || !pay) { showToast(' Please fill all required fields!'); return; }
+  if (!name || !disc || !item || !pay) { showToast('⚠️ Please fill all required fields!'); return; }
   var notes = document.getElementById('f-notes').value.trim();
   var server = document.getElementById('f-server').value.trim();
   var now = new Date();
   var ts = now.toLocaleString('en-PH', {hour12:true, month:'short', day:'numeric', year:'numeric', hour:'2-digit', minute:'2-digit'});
   var order =
-    '\n' +
-    ' BOLT HUB — RESERVATION\n' +
-    '\n' +
-    ' Name/IGN: ' + name + '\n' +
-    ' Discord: ' + disc + '\n' +
-    ' Item: ' + item + '\n' +
-    ' Payment: ' + pay +
-    (server ? '\n Username: ' + server : '') +
-    (notes ? '\n Notes: ' + notes : '') + '\n' +
-    ' Time: ' + ts + '\n' +
-    '\n' +
-    ' Paste in Discord:\n' +
+    '━━━━━━━━━━━━━━━━━━━━━\n' +
+    '⚡ BOLT HUB — RESERVATION\n' +
+    '━━━━━━━━━━━━━━━━━━━━━\n' +
+    '👤 Name/IGN: ' + name + '\n' +
+    '🎮 Discord: ' + disc + '\n' +
+    '📦 Item: ' + item + '\n' +
+    '💳 Payment: ' + pay +
+    (server ? '\n🔗 Username: ' + server : '') +
+    (notes ? '\n📝 Notes: ' + notes : '') + '\n' +
+    '⏰ Time: ' + ts + '\n' +
+    '━━━━━━━━━━━━━━━━━━━━━\n' +
+    '📋 Paste in Discord:\n' +
     'https://discord.gg/Dx35Sjb56P\n' +
-    '';
+    '━━━━━━━━━━━━━━━━━━━━━';
   copyOrder(order);
   document.getElementById('res-form').style.display = 'none';
   document.getElementById('form-success').style.display = 'block';
@@ -1273,16 +1273,16 @@ document.getElementById('res-submit').addEventListener('click', function() {
   document.getElementById('order-modal').classList.add('show');
 });
 
-//  BUILD ALL CARDS 
+// ── BUILD ALL CARDS ──
 buildCards(keysData, 'keys-grid');
 buildCards(spinsData, 'spins-grid');
 buildCards(gemsData, 'gems-grid');
 buildCards(yenData, 'yen-grid');
 buildCards(abilityData, 'ability-grid');
 
-// 
-//  SPIN WHEEL — FIXED (one-time + smooth + GH Pages) 
-// 
+// ═══════════════════════════════════════════════════════
+// ── SPIN WHEEL — FIXED (one-time + smooth + GH Pages) ──
+// ═══════════════════════════════════════════════════════
 
 var SPIN_KEY = 'bolthub_spin_used';
 
@@ -1296,7 +1296,7 @@ function markSpunDone() {
 
 function openSpinOverlay() {
   if (hasAlreadySpun()) {
-    showToast(' You already used your free spin!');
+    showToast('🎰 You already used your free spin!');
     return;
   }
   document.getElementById('spin-overlay').classList.add('visible');
@@ -1312,10 +1312,10 @@ if (!hasAlreadySpun()) {
 
 // Prize definitions
 var PRIZE_DEFS = [
-  {label:'Style of Choice', color:'#FFD700', emoji:'', weight:1},
-  {label:'10 Lucky Spins',  color:'#FFEC6E', emoji:'', weight:1},
-  {label:'10 Ability Spins',color:'#FFC200', emoji:'', weight:1},
-  {label:'100k Yen',        color:'#FF9900', emoji:'', weight:17},
+  {label:'Style of Choice', color:'#FFD700', emoji:'✨', weight:1},
+  {label:'10 Lucky Spins',  color:'#FFEC6E', emoji:'🌀', weight:1},
+  {label:'10 Ability Spins',color:'#FFC200', emoji:'⚡', weight:1},
+  {label:'100k Yen',        color:'#FF9900', emoji:'💴', weight:17},
 ];
 
 // Build flat slice array
@@ -1460,24 +1460,24 @@ function showPrize(wonDef) {
   var res = document.getElementById('spin-result');
   res.style.display = 'block';
   res.innerHTML =
-    ' YOU WON: <span style="color:' + wonDef.color + ';font-weight:900">' + wonDef.emoji + ' ' + wonDef.label + '</span>!<br>' +
-    '<small style="color:var(--text);font-size:.75rem;font-family:Syne">Order copied! Paste in Discord to claim. </small>';
+    '🎉 YOU WON: <span style="color:' + wonDef.color + ';font-weight:900">' + wonDef.emoji + ' ' + wonDef.label + '</span>!<br>' +
+    '<small style="color:var(--text);font-size:.75rem;font-family:Syne">Order copied! Paste in Discord to claim. ⚡</small>';
   document.getElementById('spin-close').style.display = 'inline-block';
 
   var now = new Date();
   var ts = now.toLocaleString('en-PH', {hour12:true, month:'short', day:'numeric', year:'numeric', hour:'2-digit', minute:'2-digit'});
   var claimMsg =
-    '\n' +
-    ' BOLT HUB — WHEEL WIN CLAIM\n' +
-    '\n' +
-    ' Prize: ' + wonDef.emoji + ' ' + wonDef.label + '\n' +
-    ' Won at: ' + ts + '\n' +
-    '\n' +
-    ' Paste in Discord to claim:\n' +
+    '━━━━━━━━━━━━━━━━━━━━━\n' +
+    '🎰 BOLT HUB — WHEEL WIN CLAIM\n' +
+    '━━━━━━━━━━━━━━━━━━━━━\n' +
+    '🎁 Prize: ' + wonDef.emoji + ' ' + wonDef.label + '\n' +
+    '⏰ Won at: ' + ts + '\n' +
+    '━━━━━━━━━━━━━━━━━━━━━\n' +
+    '📋 Paste in Discord to claim:\n' +
     'https://discord.gg/Dx35Sjb56P\n' +
-    '';
+    '━━━━━━━━━━━━━━━━━━━━━';
   copyOrder(claimMsg);
-  showToast(' ' + wonDef.label + ' — Claim copied! Paste in Discord!');
+  showToast('🎰 ' + wonDef.label + ' — Claim copied! Paste in Discord!');
 }
 
 document.getElementById('spin-close').addEventListener('click', function() {
